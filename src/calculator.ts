@@ -11,4 +11,7 @@ export class Calculator {
     public div(x: number, y: number): number {
         return x / y;
     }
+    public printHello() {
+    	console.log("hello");
+    }
 }
